@@ -1,0 +1,15 @@
+# AgentX Multi-Agent Emergency Simulation
+# Requirements for hospital emergency coordination simulation
+
+# HTTP requests for API calls
+requests>=2.31.0
+
+# Standard library dependencies (built-in, no installation needed):
+# - sys
+# - time
+# - datetime
+# - typing
+# - json (used by requests)
+
+# Optional: For better development experience
+python-dotenv>=1.0.0  # For environment variable management 
