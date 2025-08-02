@@ -3,10 +3,12 @@ import sys
 import time
 from datetime import datetime
 from typing import Dict, List, Optional
+import os
+from dotenv import load_dotenv
 
-OPENROUTER_API_KEY = (
-    "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"
-)
+load_dotenv()
+
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 
